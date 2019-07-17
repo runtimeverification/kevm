@@ -6,7 +6,7 @@
     "kevm-vm": "vendor/kevm-vm"
   },
   "scripts": {
-    "postinstall": "node lib/install.js",
+    "preinstall": "node lib/install.js",
     "lint": "eslint --ignore-path=.gitignore ."
   },
   "repository": {
